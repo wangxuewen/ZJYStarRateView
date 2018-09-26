@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 @class ZJYStarRateView;
-#import "ViewController.h"
 
 typedef void(^finishBlock)(CGFloat currentScore);
 
