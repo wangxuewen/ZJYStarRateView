@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "星级评价、服务评价"
 
-  s.homepage     = "http://github.com/wangxuewen/ZJYStarRateView"
+  s.homepage     = "https://github.com/wangxuewen/ZJYStarRateView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/wangxuewen/ZJYStarRateView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wangxuewen/ZJYStarRateView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
