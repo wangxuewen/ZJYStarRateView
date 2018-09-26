@@ -16,6 +16,7 @@
 		840CA685215B685D005034D3 /* ZJYStarRateViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CA684215B685D005034D3 /* ZJYStarRateViewTests.m */; };
 		840CA690215B685D005034D3 /* ZJYStarRateViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CA68F215B685D005034D3 /* ZJYStarRateViewUITests.m */; };
 		840CA6A0215B68B4005034D3 /* ZJYStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CA69E215B68B4005034D3 /* ZJYStarRateView.m */; };
+		840CA6A3215B9034005034D3 /* ZJYStarRateView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840CA6A2215B9034005034D3 /* ZJYStarRateView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		840CA691215B685D005034D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840CA69E215B68B4005034D3 /* ZJYStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYStarRateView.m; sourceTree = "<group>"; };
 		840CA69F215B68B4005034D3 /* ZJYStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYStarRateView.h; sourceTree = "<group>"; };
+		840CA6A2215B9034005034D3 /* ZJYStarRateView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ZJYStarRateView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		840CA66A215B685B005034D3 /* ZJYStarRateView */ = {
 			isa = PBXGroup;
 			children = (
+				840CA6A1215B9034005034D3 /* Resource */,
 				840CA69D215B68B4005034D3 /* ZJYStarRateView */,
 				840CA66B215B685B005034D3 /* AppDelegate.h */,
 				840CA66C215B685B005034D3 /* AppDelegate.m */,
@@ -143,6 +146,14 @@
 				840CA69E215B68B4005034D3 /* ZJYStarRateView.m */,
 			);
 			path = ZJYStarRateView;
+			sourceTree = "<group>";
+		};
+		840CA6A1215B9034005034D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				840CA6A2215B9034005034D3 /* ZJYStarRateView.gif */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840CA678215B685D005034D3 /* LaunchScreen.storyboard in Resources */,
+				840CA6A3215B9034005034D3 /* ZJYStarRateView.gif in Resources */,
 				840CA675215B685D005034D3 /* Assets.xcassets in Resources */,
 				840CA673215B685C005034D3 /* Main.storyboard in Resources */,
 			);

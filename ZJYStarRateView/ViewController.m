@@ -54,6 +54,7 @@
     [self.view addSubview:starRateView4];
 }
 
+#pragma mark -ZJYStarRateViewDelegate
 -(void)starRateView:(ZJYStarRateView *)starRateView currentScore:(CGFloat)currentScore{
         NSLog(@"%ld----  %f",starRateView.tag,currentScore);
 }
