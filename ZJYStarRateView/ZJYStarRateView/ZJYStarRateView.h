@@ -1,0 +1,47 @@
+//
+//  ZJYStarRateView.h
+//  XHStarRateView
+//
+//  Created by 王学文 on 2017/9/6.
+//  Copyright © 2017年 jxh. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class ZJYStarRateView;
+#import "ViewController.h"
+
+typedef void(^finishBlock)(CGFloat currentScore);
+
+typedef NS_ENUM(NSInteger, ZJYRateStyle)
+{
+    ZJYWholeStar = 0, //只能整星评论
+    ZJYHalfStar = 1,  //允许半星评论
+    ZJYIncompleteStar = 2  //允许不完整星评论
+};
+
+@protocol ZJYStarRateViewDelegate <NSObject>
+
+-(void)starRateView:(ZJYStarRateView *)starRateView currentScore:(CGFloat)currentScore;
+
+@end
+
+@interface ZJYStarRateView : UIView
+
+@property (nonatomic,assign)BOOL isAnimation;       //是否动画显示，默认NO
+@property (nonatomic,assign)ZJYRateStyle rateStyle;    //评分样式    默认是WholeStar
+@property (nonatomic, weak) id<ZJYStarRateViewDelegate>delegate;
+@property (nonatomic,assign)CGFloat currentScore;   // 当前评分：0-5  默认0
+@property (nonatomic,assign)CGFloat starSpaceing; //星间距 默认 10
+
+-(instancetype)initWithFrame:(CGRect)frame;
+-(instancetype)initWithFrame:(CGRect)frame numberOfStars:(NSInteger)numberOfStars rateStyle:(ZJYRateStyle)rateStyle isAnination:(BOOL)isAnimation delegate:(id)delegate;
+
+
+-(instancetype)initWithFrame:(CGRect)frame finish:(finishBlock)finish;
+-(instancetype)initWithFrame:(CGRect)frame numberOfStars:(NSInteger)numberOfStars rateStyle:(ZJYRateStyle)rateStyle isAnination:(BOOL)isAnimation finish:(finishBlock)finish;
+
+
+/// test
+@property (strong, nonatomic) UIViewController *testVC;
+
+@end

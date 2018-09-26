@@ -15,6 +15,7 @@
 		840CA67B215B685D005034D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CA67A215B685D005034D3 /* main.m */; };
 		840CA685215B685D005034D3 /* ZJYStarRateViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CA684215B685D005034D3 /* ZJYStarRateViewTests.m */; };
 		840CA690215B685D005034D3 /* ZJYStarRateViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CA68F215B685D005034D3 /* ZJYStarRateViewUITests.m */; };
+		840CA6A0215B68B4005034D3 /* ZJYStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CA69E215B68B4005034D3 /* ZJYStarRateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		840CA68B215B685D005034D3 /* ZJYStarRateViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJYStarRateViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840CA68F215B685D005034D3 /* ZJYStarRateViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJYStarRateViewUITests.m; sourceTree = "<group>"; };
 		840CA691215B685D005034D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840CA69E215B68B4005034D3 /* ZJYStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJYStarRateView.m; sourceTree = "<group>"; };
+		840CA69F215B68B4005034D3 /* ZJYStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYStarRateView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		840CA66A215B685B005034D3 /* ZJYStarRateView */ = {
 			isa = PBXGroup;
 			children = (
+				840CA69D215B68B4005034D3 /* ZJYStarRateView */,
 				840CA66B215B685B005034D3 /* AppDelegate.h */,
 				840CA66C215B685B005034D3 /* AppDelegate.m */,
 				840CA66E215B685B005034D3 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				840CA691215B685D005034D3 /* Info.plist */,
 			);
 			path = ZJYStarRateViewUITests;
+			sourceTree = "<group>";
+		};
+		840CA69D215B68B4005034D3 /* ZJYStarRateView */ = {
+			isa = PBXGroup;
+			children = (
+				840CA69F215B68B4005034D3 /* ZJYStarRateView.h */,
+				840CA69E215B68B4005034D3 /* ZJYStarRateView.m */,
+			);
+			path = ZJYStarRateView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				840CA670215B685B005034D3 /* ViewController.m in Sources */,
 				840CA67B215B685D005034D3 /* main.m in Sources */,
+				840CA6A0215B68B4005034D3 /* ZJYStarRateView.m in Sources */,
 				840CA66D215B685B005034D3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
